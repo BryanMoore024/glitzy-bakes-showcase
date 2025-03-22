@@ -1,6 +1,6 @@
 
+import React, { useRef, useEffect } from 'react';
 import { Star } from 'lucide-react';
-import { useRef, useEffect } from 'react';
 
 const testimonials = [
   {
@@ -40,7 +40,7 @@ const testimonials = [
   }
 ];
 
-const Testimonials = () => {
+const Testimonials: React.FC = () => {
   const testimonialRefs = useRef<(HTMLDivElement | null)[]>([]);
 
   useEffect(() => {
