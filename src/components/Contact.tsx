@@ -1,6 +1,6 @@
 
 import { useState } from 'react';
-import { Mail, Phone, Globe, Clock, Send } from 'lucide-react';
+import { Mail, Phone, Globe, Clock, Send, Facebook } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -77,7 +77,7 @@ const Contact = () => {
                 
                 <div className="flex items-start space-x-4">
                   <div className="flex-shrink-0 bg-white p-3 rounded-full shadow-sm">
-                    <Globe className="w-5 h-5 text-glitzy-pink" />
+                    <Facebook className="w-5 h-5 text-glitzy-pink" />
                   </div>
                   <div>
                     <h4 className="font-medium text-glitzy-darkpurple">Check us out on Facebook</h4>
