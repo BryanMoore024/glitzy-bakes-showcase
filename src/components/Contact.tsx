@@ -1,6 +1,6 @@
 
 import { useState } from 'react';
-import { Mail, Phone, Globe, Clock, Send, Facebook } from 'lucide-react';
+import { Mail, Phone, Globe, Clock, Send, Facebook, Instagram } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -82,6 +82,18 @@ const Contact = () => {
                   <div>
                     <h4 className="font-medium text-glitzy-darkpurple">Check us out on Facebook</h4>
                     <a href="https://www.facebook.com/profile.php?id=61557363174259" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-glitzy-pink transition-colors">
+                      Glitzy Bakes
+                    </a>
+                  </div>
+                </div>
+
+                <div className="flex items-start space-x-4">
+                  <div className="flex-shrink-0 bg-white p-3 rounded-full shadow-sm">
+                    <Instagram className="w-5 h-5 text-glitzy-pink" />
+                  </div>
+                  <div>
+                    <h4 className="font-medium text-glitzy-darkpurple">Our Instagram</h4>
+                    <a href="https://www.instagram.com/glitzybakes_gr/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-glitzy-pink transition-colors">
                       Glitzy Bakes
                     </a>
                   </div>
