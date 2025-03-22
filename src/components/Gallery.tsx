@@ -13,11 +13,11 @@ const Gallery = () => {
   const images: GalleryImage[] = [
     { id: 1, src: "/lovable-uploads/b8fa741d-8e69-49d3-9dc2-c51ab99b2a14.png", alt: "Barney cake with rainbow" },
     { id: 2, src: "/lovable-uploads/e2bccc4c-0920-4b44-a70a-a6d620773a35.png", alt: "Stitch themed cake" },
-    { id: 3, src: "/lovable-uploads/ee3434b8-748b-4506-bed5-2552e4af8ec6.png", alt: "Number 10 cupcake arrangement with Stitch cake" },
+    { id: 3, src: "/lovable-uploads/ee3434b8-748b-4506-bed5-2552e4af8ec6.png", alt: "Unamed" },
     { id: 4, src: "/lovable-uploads/98a8ca4b-9331-4503-b853-7ae33c884fa8.png", alt: "Birthday cake with cupcakes" },
-    { id: 5, src: "/lovable-uploads/6e12fb56-7d2b-4aaf-ac6b-ba4d0e0290b8.png", alt: "Stitch surfboard cake" },
+    { id: 5, src: "/lovable-uploads/6e12fb56-7d2b-4aaf-ac6b-ba4d0e0290b8.png", alt: "WWE Cake" },
     { id: 6, src: "/lovable-uploads/e3a4369a-5b8a-4213-b865-c69bca32ed5c.png", alt: "WWE wrestling ring cake" },
-    { id: 7, src: "/lovable-uploads/6898c4c2-1bb1-45df-bb06-5241c10f63ea.png", alt: "Chocolate and caramel cupcakes" },
+    { id: 7, src: "/lovable-uploads/6898c4c2-1bb1-45df-bb06-5241c10f63ea.png", alt: "Chocolate and caramel cupcakes maybe Bacon?" },
   ];
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);

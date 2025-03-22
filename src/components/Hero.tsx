@@ -45,8 +45,8 @@ const Hero = () => {
           <div className="relative flex justify-center lg:justify-end">
             <div className="w-80 h-80 md:w-96 md:h-96 bg-white rounded-full shadow-xl overflow-hidden animate-float">
               <img 
-                src="/lovable-uploads/b8fa741d-8e69-49d3-9dc2-c51ab99b2a14.png" 
-                alt="Featured Cake" 
+                src="/lovable-uploads/Ash.jpg" 
+                alt="Ash-Owner" 
                 className="w-full h-full object-cover transform scale-[0.85] hover:scale-90 transition-transform duration-500"
               />
             </div>
