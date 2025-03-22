@@ -80,9 +80,9 @@ const Contact = () => {
                     <Globe className="w-5 h-5 text-glitzy-pink" />
                   </div>
                   <div>
-                    <h4 className="font-medium text-glitzy-darkpurple">Website</h4>
-                    <a href="http://www.glitzybakes.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-glitzy-pink transition-colors">
-                      www.glitzybakes.com
+                    <h4 className="font-medium text-glitzy-darkpurple">Check us out on Facebook</h4>
+                    <a href="https://www.facebook.com/profile.php?id=61557363174259" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-glitzy-pink transition-colors">
+                      Glitzy Bakes
                     </a>
                   </div>
                 </div>
@@ -108,15 +108,7 @@ const Contact = () => {
                   <span className="text-lg font-semibold">$$$</span>
                 </div>
               </div>
-            </div>
-            
-            <div className="rounded-3xl overflow-hidden shadow-lg">
-              <img 
-                src="/lovable-uploads/b35e4891-5947-4afb-8641-d8938058afcf.png" 
-                alt="Glitzy Bakes Logo" 
-                className="w-full h-auto" 
-              />
-            </div>
+            </div>                   
           </div>
           
           <div className="lg:col-span-3 animate-slide-in-right" style={{ animationDelay: '0.5s' }}>
