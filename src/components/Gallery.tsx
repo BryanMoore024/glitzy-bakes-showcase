@@ -3,9 +3,6 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
-// Importing framer-motion for animations
-<lov-add-dependency>framer-motion@latest</lov-add-dependency>
-
 interface GalleryImage {
   id: number;
   src: string;
