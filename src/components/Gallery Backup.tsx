@@ -9,12 +9,17 @@ import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 
+interface GalleryImage {
+  id: number;
+  src: string;
+  alt: string;
+}
 
 const Gallery = () => {
   return (
     <div id="gallery" className="py-16 bg-white">
       <h2 className="text-center text-3xl font-bold text-glitzy-darkpurple mb-10">Gallery</h2>
-
+      
       <Swiper
         effect={'coverflow'}
         grabCursor={true}
@@ -31,17 +36,16 @@ const Gallery = () => {
         modules={[EffectCoverflow, Pagination]}
         className="w-full max-w-3xl mx-auto"
       >
-        {Array.from({ length: 31 }, (_, i) => (
-          <SwiperSlide key={i}>
-            <div className="p-2">
-              <img
-                src={`/lovable-uploads/image-${i + 1}.jpg`}
-                alt={`Cake ${i + 1}`}
-                className="rounded-xl w-full h-64 md:h-96 lg:h-[30rem] object-cover"
-              />
-            </div>
-          </SwiperSlide>
-        ))}
+        <SwiperSlide>
+          <img src="lovable-uploads\6e12fb56-7d2b-4aaf-ac6b-ba4d0e0290b8.png" alt="Cake 1" className="rounded-xl" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="lovable-uploads\98a8ca4b-9331-4503-b853-7ae33c884fa8.png" alt="Cake 2" className="rounded-xl" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="lovable-uploads\e3a4369a-5b8a-4213-b865-c69bca32ed5c.png" alt="Cake 3" className="rounded-xl" />
+        </SwiperSlide>
+        {/* Add more <SwiperSlide> blocks for more images */}
       </Swiper>
     </div>
   );
