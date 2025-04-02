@@ -103,7 +103,7 @@ const Footer = () => {
               © {new Date().getFullYear()} Glitzy Bakes. All rights reserved.
             </p>
             <p className="text-gray-400 text-sm flex items-center">
-              Made with <Heart className="h-4 w-4 text-glitzy-pink mx-1" /> Love by Bryan
+              Made with <Heart className="h-4 w-4 text-glitzy-pink mx-1" /> Love by James
             </p>
           </div>
         </div>
